@@ -1,0 +1,22 @@
+{
+  "name": "test_webb_app",
+  "version": "1.0.0",
+  "description": "Webb app based on tutorial for exercise before project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "\"Ratalx\"",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
