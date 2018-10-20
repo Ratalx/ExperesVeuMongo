@@ -16,6 +16,7 @@ const posts = require('./routes/api/posts')
 
 app.use('/api/posts',posts);
 
+
 //handle production
 if(process.env.NODE_ENV == 'production')
 {
